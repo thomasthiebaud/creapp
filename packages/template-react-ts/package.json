@@ -1,7 +1,9 @@
 {
   "name": "@creapp/template-react-ts",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
