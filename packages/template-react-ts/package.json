@@ -1,0 +1,20 @@
+{
+  "name": "@creapp/template-react-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "creapp start",
+    "build": "creapp build"
+  },
+  "devDependencies": {
+    "@creapp/cli": "^0.0.1",
+    "@creapp/config-react": "^0.0.1",
+    "@types/react": "^17.0.29",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.4.4"
+  }
+}
