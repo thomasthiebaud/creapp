@@ -1,0 +1,46 @@
+{
+  "name": "@creapp/cli",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Thomas Thiebaud <thiebaud.tom@gmail.com>",
+  "homepage": "https://github.com/thomasthiebaud/creapp#readme",
+  "license": "MIT",
+  "main": "lib/creapp.js",
+  "bin": {
+    "creapp": "lib/creapp.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasthiebaud/creapp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/thomasthiebaud/creapp/issues"
+  },
+  "devDependencies": {
+    "commander": "^8.2.0"
+  },
+  "dependencies": {
+    "@creapp/core": "^0.0.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "filesize": "^8.0.3",
+    "fs-extra": "^10.0.0",
+    "prompts": "^2.4.2",
+    "validate-npm-package-name": "^3.0.0",
+    "webpack": "^5.58.2",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
