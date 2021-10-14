@@ -7,7 +7,6 @@ program
   .option("-c, --config <value>", "Webpack config to use", "webpack.config.js")
   .parse(process.argv);
 
-process.env.BABEL_ENV = "development";
 process.env.NODE_ENV = "development";
 
 const options = program.opts();

@@ -6,12 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
-const {
-  appBuild,
-  appHtml,
-  appNodeModules,
-  appTsConfig,
-} = require("@creapp/core");
+const { appHtml, appTsConfig } = require("@creapp/core");
 
 function getConfig(env = process.env.NODE_ENV) {
   const isProd = env === "production";
@@ -50,8 +45,6 @@ function getConfig(env = process.env.NODE_ENV) {
     mode: isProd ? "production" : "development",
     devtool: isProd ? "source-map" : "cheap-module-source-map",
     output: {
-      path: appBuild,
-      pathinfo: isDev,
       clean: isProd,
     },
     resolve: {
@@ -154,17 +147,12 @@ function getConfig(env = process.env.NODE_ENV) {
       ],
     },
     plugins: [
-      new HtmlWebpackPlugin({
-        inject: true,
-        template: appHtml,
-      }),
+      new HtmlWebpackPlugin({ template: appHtml }),
       new CaseSensitivePathsPlugin(),
       useTypeScript &&
         new ForkTsCheckerWebpackPlugin({
           typescript: {
-            typescriptPath: require.resolve("typescript", {
-              paths: [appNodeModules],
-            }),
+            typescriptPath: require.resolve("typescript"),
             diagnosticOptions: {
               semantic: true,
               syntactic: true,
@@ -175,11 +163,7 @@ function getConfig(env = process.env.NODE_ENV) {
       isProd && new MiniCssExtractPlugin(),
     ].filter(Boolean),
     devServer: {
-      open: true,
       historyApiFallback: true,
-      devMiddleware: {
-        stats: "minimal",
-      },
     },
   };
 

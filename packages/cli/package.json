@@ -34,9 +34,7 @@
   },
   "dependencies": {
     "@creapp/core": "^0.0.1",
-    "chalk": "^4.1.2",
     "commander": "^8.2.0",
-    "filesize": "^8.0.3",
     "fs-extra": "^10.0.0",
     "prompts": "^2.4.2",
     "validate-npm-package-name": "^3.0.0",
