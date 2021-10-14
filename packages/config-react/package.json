@@ -6,6 +6,7 @@
   "homepage": "https://github.com/thomasthiebaud/creapp#readme",
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.js",
   "directories": {
     "lib": "lib"
   },
