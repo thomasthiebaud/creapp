@@ -1,0 +1,25 @@
+{
+  "name": "@creapp/core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Thomas Thiebaud <thiebaud.tom@gmail.com>",
+  "homepage": "https://github.com/thomasthiebaud/creapp#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasthiebaud/creapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thomasthiebaud/creapp/issues"
+  }
+}
