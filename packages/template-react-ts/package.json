@@ -1,6 +1,6 @@
 {
   "name": "@creapp/template-react-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publishConfig": {
     "access": "public"
   },
@@ -13,8 +13,8 @@
     "build": "creapp build"
   },
   "devDependencies": {
-    "@creapp/cli": "^0.0.1",
-    "@creapp/config-react": "^0.0.1",
+    "@creapp/cli": "^0.1.0",
+    "@creapp/config-react": "^0.1.0",
     "@types/react": "^17.0.29",
     "@types/react-dom": "^17.0.9",
     "typescript": "^4.4.4"

@@ -1,6 +1,6 @@
 {
   "name": "@creapp/config-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Thomas Thiebaud <thiebaud.tom@gmail.com>",
   "homepage": "https://github.com/thomasthiebaud/creapp#readme",
@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "@creapp/core": "^0.0.1",
+    "@creapp/core": "^0.1.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
