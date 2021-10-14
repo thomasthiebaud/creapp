@@ -12,7 +12,8 @@
   "scripts": {
     "lint": "prettier -c .",
     "lint:fix": "prettier -w .",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "version": "lerna version --conventional-commits"
   },
   "commitlint": {
     "extends": [
