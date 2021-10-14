@@ -13,7 +13,7 @@
     "lint": "prettier -c .",
     "lint:fix": "prettier -w .",
     "prepare": "is-ci || husky install",
-    "version": "lerna version --conventional-commits"
+    "version": "lerna version --conventional-commits --no-commit-hooks -m \"chore(release): publish %s\""
   },
   "commitlint": {
     "extends": [
