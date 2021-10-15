@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/thomasthiebaud/creapp/compare/@creapp/template-react-js@0.2.3...@creapp/template-react-js@0.2.4) (2021-10-15)
+
+
+### Bug Fixes
+
+* change title in index.html ([09fc989](https://github.com/thomasthiebaud/creapp/commit/09fc98989b227ab1e06413f3ebd6507f940b14cc))
+
+
+
+
+
 ## [0.2.3](https://github.com/thomasthiebaud/creapp/compare/@creapp/template-react-js@0.2.2...@creapp/template-react-js@0.2.3) (2021-10-15)
 
 

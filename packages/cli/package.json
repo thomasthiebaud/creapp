@@ -1,6 +1,6 @@
 {
   "name": "@creapp/cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "> TODO: description",
   "author": "Thomas Thiebaud <thiebaud.tom@gmail.com>",
   "homepage": "https://github.com/thomasthiebaud/creapp#readme",
@@ -33,7 +33,7 @@
     "commander": "^8.2.0"
   },
   "dependencies": {
-    "@creapp/core": "^0.1.0",
+    "@creapp/core": "^0.2.0",
     "chalk": "^4.1.2",
     "commander": "^8.2.0",
     "fs-extra": "^10.0.0",
