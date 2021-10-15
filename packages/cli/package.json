@@ -36,10 +36,7 @@
     "@creapp/core": "^0.1.0",
     "commander": "^8.2.0",
     "fs-extra": "^10.0.0",
-    "gunzip-maybe": "^1.4.2",
-    "mv": "^2.1.1",
     "prompts": "^2.4.2",
-    "tar-fs": "^2.1.1",
     "validate-npm-package-name": "^3.0.0",
     "webpack": "^5.58.2",
     "webpack-dev-server": "^4.3.1"
